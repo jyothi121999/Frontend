@@ -1,0 +1,701 @@
+@media screen and (max-width: 768px) {
+
+    /* banner-section */
+   .body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+   }
+   .banner{
+    height:auto;
+   }
+   .banner-container{
+    position: relative;
+    padding-top: 51px;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+   }
+   .banner-container::before{
+    border-top: 8px solid #8D2528;
+    border-left: 8px solid #8D2528;
+    border-right: 8px solid #8D2528;
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 91%;
+    height: 40px;
+    left: 10px;
+   }
+   .banner-container h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0px;
+    width:282px;
+}
+.banner-container p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    width: 100%;
+    width: 268px;
+} 
+.banner-container::after{
+    border-bottom: 8px solid #AE9931;
+    border-left: 8px solid #AE9931;
+    border-right: 8px solid #AE9931;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 91%;
+    height: 30px;
+    left: 10px;
+    top:266px;
+}
+
+ /* structural-warranty-section  */
+
+ .structural-warranty{
+    margin: 20px;
+ }
+ .structural-warranty span {
+    text-align: left;
+}
+ .structural-warranty span::before {
+    content: "";
+    width: 38px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    left: -47px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.structural-warranty span::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    right: -48px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.structural-warranty h4 {
+    font-size: 20px;
+    /* width:299px; */
+    width:100%;
+    /* margin:0px; */
+    margin:auto;
+    padding-top: 20px;
+    text-align: center;
+ }
+ .structural-warranty p {
+    font-size: 14px;
+    /* width:287px; */
+    /* margin:0px; */
+    width:100%;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* planning-list-section */
+
+.planning-list{
+    flex-wrap: wrap;
+}
+.planning-list-left{
+   margin: 0 auto;
+}
+.planning-list-left img{
+    width:100%;
+     max-width: 304px;
+}
+.planning-list-right{
+    flex-basis: 100%;
+    padding-top: 0px;
+    padding-left: 24px;
+}
+.planning-list-right h2{
+    font-size: 15px;
+    color: #8D2528;
+    position:relative;
+    width:251px;
+}
+.planning-list-right h2::after {
+    content: "";
+    width: 34px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    top: 10px;
+    transform: translateY(-50%);
+    left: 186px;
+}
+.icon-content{
+   width:224px;
+}
+.planning-list-right p{
+    font-size: 20px;
+    width:100%;
+}
+.planning-list-right ul {
+    font-size: 14px;
+ }
+ .planning-list-right li{
+    width:272px;
+ }
+
+ /* what-we-cover-section */
+
+.what-apsw-cover{
+    flex-wrap: wrap;
+}
+.cover{
+    position: relative;
+    font-size: 14px;
+}
+.what-we-cover span::before {
+    content: "";
+    width: 44px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    left: -54px;
+    top: 51%;
+    transform: translateY(-50%);
+}
+.what-we-cover span::after {
+    content: "";
+    width: 46px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    right: -58px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.what-we-cover h3 {
+    font-size: 20px;
+    width:100%;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+.what-we-cover p {
+    font-size: 14px;
+    width:100%;
+    padding-top:17px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+.what-we-cover-container {
+    flex-direction: column;
+}
+.bricks-image {
+    width: 100%;
+}
+.bricks{
+    margin:0 auto;
+}
+.bricks h4 {
+    font-size: 18px;
+    text-align: center;
+    width:246px;
+    margin:auto;
+    padding-top: 17px;
+}
+.bricks p {
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 22px;
+}
+ .construction{
+    margin:0px auto;
+} 
+.construction-image{
+    width:100%;
+    /* max-width: 260px; */
+    padding-top: 20px;
+}
+.construction h4 {
+    font-size: 18px;
+    text-align: center;
+    width:246px;
+    margin:auto;
+    padding-top: 17px;
+}
+.construction p {
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 22px;
+}
+.structure-image{
+    width:100%;
+    padding-top: 20px;
+}
+.structure{
+    margin:0 auto;
+}
+.structure h4 {
+    font-size: 18px;
+    text-align: center;
+    width:246px;
+    margin:auto;
+    padding-top: 17px;
+}
+.structure p{
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    width:100%;
+    padding-bottom: 10px;
+    padding-top: 22px;
+}
+
+/* coverage-details-section */
+
+.coveragedetails-includes-span::before {
+    content: "";
+    width: 35px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    right: 134px;
+    top: 51%;
+    transform: translateY(-50%);
+}
+.coveragedetails-includes span {
+    font-size: 14px;
+    position: relative;
+}
+.coveragedetails-includes-span::after {
+    content: "";
+    width: 41px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    top: 10px;
+    left: 135px;
+    transform: translateY(-50%);
+}
+.coveragedetails h4 {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    width:100%;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.house-Image {
+    flex-direction: column;   
+    margin: 80px 20px 0px 20px;
+    padding-top: 32px;
+    margin-top: 0px;
+}
+.house-Image-in{
+    display: flex;
+}
+.workmanship{
+    font-size: 14px;
+    padding-right: 15px;
+}
+.workmanship-content{
+    padding-left: 21px;
+}
+.workmanship-content p{
+    font-size: 14px;
+}
+.roof-covering-details {
+    padding-left: 38px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.systems{
+    font-size: 14px;
+}
+.electrical-details {
+    font-size: 13px;
+    padding-left: 40px;
+}
+.structural{
+    font-size: 14px;
+}
+.structural-details{
+  font-size: 13px;
+  padding-left: 36px;
+  width:126px;
+}
+.houseImage-right{
+    width:100%;
+    height:auto;
+}
+.house-content{
+    padding-left: 30px;
+}
+/* warranty-pricing-section */
+
+.warranty-pricing{
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.warranty-pricing span{
+    font-size: 14px;
+    width:225px;
+}
+.warranty-pricing span::before {
+    content: "";
+    width: 42px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    right: 146px;
+    bottom: 7px;
+    transform: translateY(-50%);
+}
+.warranty-pricing span::after {
+    content: "";
+    width: 42px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    transform: translateY(-50%);
+    bottom: 7px;
+    left: 145px;
+}
+.warranty-pricing h3 {
+    font-size: 20px;
+    width:100%;
+    margin: auto;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.warranty-pricing h5 {
+    font-size: 14px;
+    width:100%;
+    /* max-width: 282px; */
+    padding-top: 20px;
+}
+.warranty-pricing p{
+    width: 100%;
+    font-size: 14px;
+    margin: auto;
+    padding-top: 20px;
+}
+.geta-quote {
+    margin:36px;
+}
+
+/* buildersecure-section */
+
+.buildersecure{
+    flex-wrap: wrap;
+}
+.buildersecure-left{
+    margin:0 auto;
+}
+.buildersecure-left img{
+    width:100%;
+    max-width: 304px;
+}
+.buildersecure-right{
+    flex-basis: 100%;
+    padding-top: 0px;
+}
+.buildersecure-right span{
+    font-size: 14px;
+    position:relative;
+}
+.buildersecure-right span::after {
+    content: "";
+    width: 42px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    transform: translateY(-50%);
+    bottom: 8px;
+    left: 129px;
+}
+.buildersecure-left{
+    font-size: 14px;
+}
+.buildersecure-right h3{
+    font-size: 20px;
+    width:100%;
+}
+.buildersecure-right h4{
+    font-size: 14px;
+    width:100%;
+}
+.buildersecure-right h5{
+    font-size: 14px;
+    width:100%;
+}
+/* faq-section */
+
+.faq-container{
+    margin: 24px;
+    flex-wrap: wrap;
+    width: auto;
+/* margin-left: 37px; */
+}
+.faq  span{
+    font-size: 14px;
+}
+.faq span::before {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    right: 36px;
+    bottom: 7px;
+    transform: translateY(-50%);
+}
+.faq span::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    right: 36px;
+    bottom: 7px;
+    transform: translateY(-50%);
+}
+.faq h2{
+    font-size: 20px;
+    font-weight: bold;
+    /* width: 275px; */
+    width:100%;
+}
+.faq-question1 h3{
+    font-size: 15px;
+} 
+.faq-question2 h3{
+    font-size: 15px;
+    /* width:208px; */
+    width:100%;
+    padding: 0px;
+    margin-left:0px;
+}
+.faq-question2 p {
+    font-size: 15px;
+    /* width:261px; */
+    width:100%;
+    padding-top: 20px;
+    margin:0px;
+}
+.faq-question3 h3{
+    font-size: 15px;
+    /* width:235px; */
+    width:100%;
+}
+.symbol{
+    font-size: 20px;
+}
+/* form-section */
+
+.form{
+    flex-wrap: wrap;
+    height:auto;
+}
+.form-header h3 {
+    font-size: 22px;
+    /* width:280px; */
+    width:100%;
+    padding-top: 38px;
+    padding-left:0px;
+}
+.form-header p {
+    font-size: 14px;
+    /* width:284px; */
+    width:100%;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.form-data{
+    flex-direction: column;
+    padding-left: 29px;
+    padding-top: 30px;
+}
+.form-data-left{
+    margin:0 auto;
+}
+.form-data-right {
+    padding-left: 0px;
+    margin:0 auto;
+}
+.name{
+    font-size: 14px;
+}
+.naming{
+    width:260px;
+    height:45px;
+}
+.form-content p{
+    font-size: 12px;
+    width:100%;
+    padding-top: 20px;
+    margin-left: 0px;
+    margin:0 auto;
+
+}
+.getaquote {
+    margin-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+/* warranty-leader-section */
+
+.warranty-leader {
+    margin-top: 50px;
+}
+.warrranty-leader-header h3 {
+    font-weight: bold;
+    font-size: 20px;
+    /* width:243px; */
+    width:100%;
+    margin:auto;
+    padding-top: 23px;
+}
+.warrranty-leader-header p{
+    /* width:304px; */
+    width:100%;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.footer-container {
+    margin-top: 25px;
+}
+
+/* explore-our-plans-section */
+
+.explore-our-plans{
+    height:280px;
+}
+.explore-our-plans h2::before {
+    content: "";
+    width: 47px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    left: 38px;
+    bottom: 7px;
+    transform: translateY(-50%);
+}
+.explore-our-plans h2{
+    font-size: 14px;
+}
+.explore-our-plans h2::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #8D2528;
+    position: absolute;
+    transform: translateY(-50%);
+    bottom: 7px;
+    right: 36px;
+}
+.explore-our-plans h3{
+    font-size: 20px;
+    font-weight: bold;
+    width:100%;
+    margin:auto;
+}
+.explore-our-plans p {
+    font-size: 14px;
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+.plans-in{
+    flex-direction: column;
+    width: 95%;
+    padding-top: 40px; 
+}
+.plans-left-header h4{
+    font-size: 30px;
+}
+.plan-style{
+    font-size: 16px;
+}
+.plan-style-plan{
+    font-size: 16px;
+}
+.plans-left-content{
+    font-size: 14px;
+    height:auto;
+    border-right: 2px solid grey;
+    padding-right: 0px;
+}
+.plans-left-content-main{
+    font-size: 14px;
+}
+.plans-right{
+    padding-top: 20px;
+}
+.plans-right-content {
+    font-size: 14px;
+    padding-right: 0px;
+}
+.plans-right-content ul{
+    line-height: 3;
+}
+.plans-right-header h4{
+    font-size: 30px;
+}
+.plans-right-content {
+    height:45px;
+}
+
+/* flexible-coverage-section */
+
+.flexible-coverage-header h2{
+    font-size: 20px;
+    width:100%;
+    margin: auto;
+    margin-top: 330px;
+    margin-bottom: 20px;
+}
+.standard-workmanship{
+    width:100%;
+    max-width: 1120px;
+    height: auto;
+    overflow: auto;
+    overflow-y: hidden;
+}
+.workmanship-in h2{
+    font-size: 20px;
+    max-width: 165px;
+}
+.workmanship-in p{
+    width:189px;
+    font-size: 14px;
+}
+.workmanship-in{
+    width:204px;
+}
+.workmanship-content img,.house-content{
+    display: none;
+}
+.header-container,.footer-container
+{
+   display: none;
+}       
+}
+
+ 
+
+    
+   
