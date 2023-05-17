@@ -1,0 +1,508 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    /*font-size: 20px;
+font-weight: bold; */
+}
+
+.box-shadow {
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.form-container1 {
+    float: right;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.form-container {
+    background-image: url(./Images/7zknrksd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 657px;
+    margin-top: 0px;
+}
+
+.form-container h3 {
+    text-align: center;
+    /* padding:8px; */
+    font-size: 45px;
+    font-weight: bold;
+    color:cornsilk
+}
+
+.form-grp {
+    padding: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.form-grp button {
+    background-color: #ff2300ad;
+    width: 100%;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
+
+/* menu-bar */
+.menu-content {
+    background-image: url(./Images/black-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 657px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.menu-content-in span  {
+    color: darkgoldenrod;
+    font-size: 75px;
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    padding-bottom: 11px;
+}
+
+.menu-content-in h3 {
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: indianred;
+    padding: 0px 30px 0px 30px;
+}
+.flavours-list {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Ice-creames {
+    float: left;
+}
+.Ice-creames span a {
+    font-size: 35px;
+    color: crimson;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+.Ice-creames li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 25px;
+    display: block;
+    text-decoration: none;
+    color:crimson;
+    }
+.Ice-creames-list ul {
+    list-style: none;
+    }
+.Ice-creames-list ul {
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding-top: 30px;
+}
+
+.Ice-creames-list li {
+    color: white;
+    list-style-type: none;
+    padding: 8px;
+    font-size: 25px;
+}
+
+.Ice-creames ul {
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.milk-shakes {
+    padding-left: 200px;
+}
+
+.milk-shakes span  a{
+    color: crimson;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.milk-shakes ul {
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.milk-shakes li {
+    color: white;
+    list-style-type: none;
+    padding: 8px;
+    font-size: 25px;
+}
+.milk-shakes li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 25px;
+    display: block;
+    text-decoration: none;
+    color:crimson;
+}
+
+/* Items-list */
+
+.mint{
+    margin-top: 30px;
+    margin-left:21px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+}
+.mint img{
+    border-radius: 20px;
+}
+.mint p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+ .vanilla{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left: 85px;
+    margin-top: 30px;
+    width:15%;
+} 
+.vanilla img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.vanilla p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.image-list{
+    display:flex
+}
+.image-lists{
+    display:flex;
+    justify-content: center;
+}
+.Image-content{
+    background-image: url(./Images/background-icecream.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:fit-content;
+    height: 657px;
+    margin-top: 0px;
+    text-align: center;
+}
+.mango{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+.mango img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.mango p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.chocolate{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+.chocolate img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.chocolate p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.blueberry{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left: 85px;
+    margin-top: 30px;
+}
+.blueberry img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.blueberry p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.strawberry-ice{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left: 163px;
+    margin-top: 88px;
+}
+.strawberry-ice img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.strawberry-ice p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.Peanut{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:85px;
+    margin-top: 88px;
+}
+.Peanut img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.Peanut p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.raspberry{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:85px;
+    margin-top: 88px;
+}
+.raspberry img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.raspberry p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+.smores{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:85px;
+    margin-top: 88px;
+}
+.smores img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.smores p{
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* .c-milkshake*/
+.milkshake-content{
+    background-image: url(./Images/abcdefg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 657px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.c-milkshake{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:60px;
+    margin-top: 88px;
+}
+.c-milkshake img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.c-milkshake p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+.creamshake{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:65px;
+    margin-top: 88px;
+}
+.creamshake img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.creamshake p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+.Oreoapple{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:65px;
+    margin-top: 88px;
+}
+.Oreoapple img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.Oreoapple p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+.almond{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:65px;
+    margin-top: 88px;
+}
+.almond img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.almond p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+.melon{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:65px;
+    margin-top: 88px;
+}
+.melon img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.melon p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+.banana {
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-top: 88px;
+}
+.banana img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.banana p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+.strawberry{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:64px;
+    margin-top: 88px;
+}
+.strawberry img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.strawberry p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+.Smoote{
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid crimson;
+    box-shadow: 5px 5px 5px lightgray;
+    margin-left:63px;
+    margin-top: 88px;
+}
+.Smoote img{
+    width: 100%;
+    height: 182px;
+    border-radius: 20px;
+}
+.Smoote p{
+    font-size: 19px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
